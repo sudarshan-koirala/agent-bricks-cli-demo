@@ -269,9 +269,4 @@ Use these if the agent doesn't do what's expected:
 
 ## Free Edition
 
-Free Edition is **not officially supported**. Use a trial or paid workspace.
-
-- Managed memory and sessions (Beta) run on Lakebase. Free Edition allows **one** Lakebase project per account.
-- Default deploy creates a per-app Lakebase project for the Runtime Store — this can hit the one-project limit if you already have one.
-- Free Edition apps: max 3 per account, stop after 24 hours.
-- **Possible light path (untested):** `agentbricks init --server custom` creates a plain FastAPI agent with no Runtime Store, memory, or session stores. Local `uv run agentbricks dev` may work if the model call succeeds.
+Free Edition is not officially supported. Use a trial or paid workspace.
